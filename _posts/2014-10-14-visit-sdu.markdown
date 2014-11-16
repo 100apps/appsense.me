@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "AS研发团队走进山东大学"
+date:   2014-10-24 17:42:28
+---
+近日，AS团队在山大开源社区的邀请下，走近山大，为同学们讲解有关移动开发的技术问题。期间，AS创始人Kuang做了题为《互联网的未来在移动端》的演讲，演讲完成以后，同学们积极提问，Kuang学长也一一作了解答。
+
+<img src="{{site.url}}img/IMG_0879.JPG" alt="AS走进山大" class="img-responsive">

@@ -1,0 +1,43 @@
+{% include head.html %}
+
+
+ <body class="page">
+
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-sm hidden-xs" href="#"><img src="{{ site.url }}img/logo.png" alt=""></a>
+          <a class="navbar-brand visible-sm visible-xs" href="#"><img src="{{ site.url }}img/logo-small.png" alt=""></a>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href=" {{ site.url }}">首页</a></li>
+            <li  class="active"><a href="{{ site.url }}apps/">APPS</a></li>
+            <li><a href="{{ site.url }}about.html">关于我们</a></li>
+            <li class="last"><a  rel="nofollow" href="https://jinshuju.net/f/QmQTQA">提交创意</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+    </nav>
+
+<div class="apps">
+        <div class="container">
+          <div class="row">
+{{ content}}
+
+        </div>
+      </div>
+    </div>
+
+
+
+  {% include footer.html %}
+

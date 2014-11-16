@@ -1,0 +1,33 @@
+{% include head.html %}
+
+
+ <body class="page">
+
+   {% include nav.html %}
+
+<div class="article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+
+                    <h1 class="news-title">{{ page.title }}</h1>
+                    <p class="news-time">{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</p>
+                    <div class="news-detail">
+                        <div class="news-detail-content">
+                                {{ content }}
+
+
+                    </div>
+                </div>
+            
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  {% include footer.html %}
+

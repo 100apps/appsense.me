@@ -1,0 +1,13 @@
+---
+layout: index
+---
+
+{% for post in paginator.posts %}
+<li>
+<a href="{{ post.url | prepend: site.baseurl }}">
+<h4>{{ post.title }}</h4>
+<p>{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</p>
+<i class="arrow"><span></span></i>
+</a>
+</li>
+{% endfor %}

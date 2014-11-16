@@ -1,0 +1,90 @@
+---
+layout: apps
+title:  "我们开发的apps"
+date:   2014-09-14 17:42:28
+permalink: apps/
+---
+
+<div class="col-md-6 col-xs-12">
+              <div class="app-header">
+                             <img src="{{site.url}}img/download_banner_2.jpg" alt="">
+
+              </div>
+          </div>
+
+<div class="col-md-6 col-xs-12">
+            <div class="app-header">
+                             <img src="{{site.url}}img/download_banner_1.jpg" alt="">
+
+              </div>
+          </div>
+
+<div class="col-md-6 col-xs-12">
+              <div class=" app"><div class="row">
+                <div class="col-md-5 col-xs-6 link">
+                 <h3>Windows版</h3>
+                 <a class="btn-download icon-win" href="#">
+                 立即下载
+                 </a>
+                </div>
+                <div class="col-md-7 col-xs-6 info">
+                  版本：2.2 <br>
+                  大小：21.1MB<br>
+                  适用平台：XP/vista/win7/win8<br>
+                  更新时间：2014-08-06
+                </div></div>
+            </div>
+          </div><div class="col-md-6 col-xs-12">
+              <div class=" app">
+                <div class="row">
+                <div class="col-md-5 col-xs-6 link">
+                 <h3>Windows版</h3>
+                 <a class="btn-download icon-ios" href="#">
+                 立即下载
+                 </a>
+                </div>
+                <div class="col-md-7 col-xs-6 info">
+                  版本：2.2 <br>
+                  大小：21.1MB<br>
+                  适用平台：XP/vista/win7/win8<br>
+                  更新时间：2014-08-06
+                </div></div>
+            </div>
+          </div>
+
+<div class="col-md-6 col-xs-12 ">
+              <div class=" app">
+                <div class="row">
+                <div class="col-md-5 col-xs-6 link">
+                 <h3>Windows版</h3>
+                 <a class="btn-download icon-android" href="#">
+                 立即下载
+                 </a>
+                </div>
+                <div class="col-md-7 col-xs-6 info">
+                  版本：2.2 <br>
+                  大小：21.1MB<br>
+                  适用平台：XP/vista/win7/win8<br>
+                  更新时间：2014-08-06
+                </div></div>
+            </div>
+          </div>
+
+
+<div class="col-md-6 col-xs-12 ">
+              <div class=" app">
+                <div class="row">
+                <div class="col-md-5 col-xs-6 link">
+                 <h3>Windows版</h3>
+                 <a class="btn-download icon-ios" href="#">
+                 立即下载
+                 </a>
+                </div>
+                <div class="col-md-7 col-xs-6 info">
+                  版本：2.2 <br>
+                  大小：21.1MB<br>
+                  适用平台：XP/vista/win7/win8<br>
+                  更新时间：2014-08-06
+                </div></div>
+            </div>
+          </div>
