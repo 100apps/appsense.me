@@ -18,4 +18,4 @@ date:   2014-11-01 19:42:28
 AppStore地址：<https://itunes.apple.com/app/id925697616>
 
 扫描下面的二维码，直接下载:
-<img src="{{site.url}}img/qr-tizhongbao.png" alt="体重宝二维码" class="img-responsive">
+<img src="{{site.baseurl}}/img/qr-tizhongbao.png" alt="体重宝二维码" class="img-responsive">

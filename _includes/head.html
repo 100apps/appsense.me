@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
-
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{site.baseurl}}/feed.xml" />
 	<!-- Bootstrap -->
 	<link href="http://libs.baidu.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-	<link href="{{site.url}}css/common.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +18,7 @@
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
       <!-- Favicons -->
-      <link rel="apple-touch-icon" href="{{site.url}}apple-touch-icon.png">
-      <link rel="icon" href="{{site.url}}favicon.ico">
-      <link rel="canonical" href="{{ page.url | replace:'index.html','' |  prepend: site.preurl }}">
+      <link rel="apple-touch-icon" href="{{site.baseurl}}/apple-touch-icon.png">
+      <link rel="icon" href="{{site.baseurl}}/favicon.ico">
+      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   </head>

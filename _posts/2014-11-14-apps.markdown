@@ -7,14 +7,14 @@ permalink: apps/
 
 <div class="col-md-6 col-xs-12">
               <div class="app-header">
-                             <img src="{{site.url}}img/download_banner_2.jpg" alt="">
+                             <img src="{{site.baseurl}}/img/download_banner_2.jpg" alt="">
 
               </div>
           </div>
 
 <div class="col-md-6 col-xs-12">
             <div class="app-header">
-                             <img src="{{site.url}}img/download_banner_1.jpg" alt="">
+                             <img src="{{site.baseurl}}/img/download_banner_1.jpg" alt="">
 
               </div>
           </div>
